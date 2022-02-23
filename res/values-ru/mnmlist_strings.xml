@@ -15,86 +15,160 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Categories -->
-  <string name="gestures_title">Жесты</string>
-  <string name="gestures_summary">Управляйте своим устройством еще проще</string>
-  <string name="misc_title">Прочее</string>
-  <string name="misc_summary">Другое</string>
-  <string name="statusbar_title">Строка состояния</string>
-  <string name="statusbar_summary">Настройте внешний вид строки состояния</string>
-  <string name="buttons_title">Кнопки</string>
-  <string name="buttons_summary">Настройте функциональность кнопок</string>
-  <!-- General strings -->
-  <string name="ok">ОК</string>
-  <string name="reset">По умолчанию</string>
-  <string name="cancel">Отмена</string>
-  <string name="save">Сохранить</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Палитра цветов</string>
-  <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
-  <string name="arrow_right">→</string>
-  <string name="arrow_down">↓</string>
-  <string name="hex">Код:</string>
-  <string name="hex_hint">#ff000000</string>
-  <string name="set">Задать</string>
-  <string name="color_default">По умолчанию</string>
-  <!-- Global Actions -->
-  <string name="ls_disable_ga">Глобальные действия</string>
-  <string name="global_actions_advanced_reboot_title">Включить расширенный перезапуск</string>
-  <string name="global_actions_advanced_reboot_summary">Показать параметры восстановления и загрузчика</string>
-  <!-- Battery Styles -->
-  <string name="status_bar_battery_style_title">Стиль батареи</string>
-  <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
-  <string name="status_bar_battery_style_circle">Круг</string>
-  <string name="status_bar_battery_style_dotted_circle">Пунктирный круг</string>
-  <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
-  <string name="status_bar_battery_style_text">Текст</string>
-  <string name="status_bar_battery_style_hidden">Скрытый</string>
-  <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
-  <string name="status_bar_battery_percentage_default">Скрытый</string>
-  <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
-  <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
-  <!-- Customization Categories/Fragment Titles -->
-  <string name="clocksettings_title">Настройки часов</string>
-  <string name="clocksettings_summary">Настройки часов в строке состояния</string>
-  <string name="status_bar_clock_date_title">Часы и дата</string>
-  <string name="status_bar_clock_date_summary">Настройка часов и даты в строке состояния</string>
-  <string name="status_bar_clock_title">Настройки часов</string>
-  <string name="status_bar_clock_show">Показывать часы и дату</string>
-  <string name="status_bar_clock_style_title">Стиль часов</string>
-  <string name="status_bar_clock_style_right">Справа</string>
-  <string name="status_bar_clock_style_center">По центру</string>
-  <string name="status_bar_clock_style_left">Слева</string>
-  <string name="status_bar_date_title">Настройки даты</string>
-  <string name="status_bar_am_pm_title">Стиль AM/PM</string>
-  <string name="status_bar_am_pm_info">24-часовой формат включен</string>
-  <string name="status_bar_am_pm_normal">Обычный</string>
-  <string name="status_bar_am_pm_small">Маленький</string>
-  <string name="status_bar_am_pm_hidden">Скрытый (по умолчанию)</string>
-  <string name="clock_seconds_display">Показать секунды</string>
-  <string name="clock_date_display">Дата</string>
-  <string name="clock_date_display_summary">Отображать дату перед часами</string>
-  <string name="clock_date_display_none">Не показывать</string>
-  <string name="clock_date_display_small">Маленький размер шрифта</string>
-  <string name="clock_date_display_normal">Нормальный размер шрифта</string>
-  <string name="clock_date_style">Стиль даты</string>
-  <string name="clock_date_style_normal">Обычный</string>
-  <string name="clock_date_style_lowercase">Строчные буквы</string>
-  <string name="clock_date_style_uppercase">Прописные</string>
-  <string name="clock_date_format_custom">Пользовательский формат java</string>
-  <string name="clock_date_format">Формат даты</string>
-  <string name="clock_date_string_edittext_title">Должен быть в формате даты. Например: MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Введите строку</string>
-  <string name="clock_date_right">Справа от времени</string>
-  <string name="clock_date_left">Слева от времени</string>
-  <string name="clock_date_position">Расположение даты</string>
-  <!--  Volume Panel Plugin   -->
-  <string name="volume_panel">Стиль панели громкости</string>
-  <string name="volume_panel_aosp">AOSP</string>
-  <string name="volume_panel_compact">Компактный</string>
-  <string name="volume_panel_tiled">Плитка</string>
-  <!--  Volume Panel Plugin Values   -->
-  <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
-  <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
-  <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+     
+    <!-- Categories -->
+    <string name="gestures_title">Жесты</string>
+    <string name="gestures_summary">Управляйте своим устройством еще проще</string>
+    <string name="misc_title">Прочее</string>
+    <string name="misc_summary">Другое</string>
+    <string name="statusbar_title">Строка состояния</string>
+    <string name="statusbar_summary">Настройте внешний вид строки состояния</string>
+    <string name="buttons_title">Кнопки</string>
+    <string name="buttons_summary">Настройте функциональность кнопок</string>
+    
+    <!-- General strings -->
+    <string name="ok">ОК</string>
+    <string name="reset">По умолчанию</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Палитра цветов</string>
+    <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Код:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Задать</string>
+    <string name="color_default">По умолчанию</string>
+    
+    <!-- Global Actions -->
+    <string name="ls_disable_ga">Глобальные действия</string>
+    <string name="global_actions_advanced_reboot_title">Включить расширенный перезапуск</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры восстановления и загрузчика</string>
+    
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Пунктирный круг</string>
+    <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрытый</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Скрытый</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    
+    <!-- Customization Categories/Fragment Titles -->
+    <string name="clocksettings_title">Настройки часов</string>
+    <string name="clocksettings_summary">Настройки часов в строке состояния</string>
+    <string name="status_bar_clock_date_title">Часы и дата</string>
+    <string name="status_bar_clock_date_summary">Настройка часов и даты в строке состояния</string>
+    <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_show">Показывать часы и дату</string>
+    <string name="status_bar_clock_style_title">Стиль часов</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_left">Слева</string>
+    <string name="status_bar_date_title">Настройки даты</string>
+    <string name="status_bar_am_pm_title">Стиль AM/PM</string>
+    <string name="status_bar_am_pm_info">24-часовой формат включен</string>
+    <string name="status_bar_am_pm_normal">Обычный</string>
+    <string name="status_bar_am_pm_small">Маленький</string>
+    <string name="status_bar_am_pm_hidden">Скрытый (по умолчанию)</string>
+    <string name="clock_seconds_display">Показать секунды</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображать дату перед часами</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Маленький размер шрифта</string>
+    <string name="clock_date_display_normal">Нормальный размер шрифта</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_normal">Обычный</string>
+    <string name="clock_date_style_lowercase">Строчные буквы</string>
+    <string name="clock_date_style_uppercase">Прописные</string>
+    <string name="clock_date_format_custom">Пользовательский формат java</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Должен быть в формате даты. Например: MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Введите строку</string>
+    <string name="clock_date_right">Справа от времени</string>
+    <string name="clock_date_left">Слева от времени</string>
+    <string name="clock_date_position">Расположение даты</string>
+    
+    <!--Volume Panel Plugin -->
+    <string name="volume_panel">Стиль панели громкости</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Компактный</string>
+    <string name="volume_panel_tiled">Плитка</string>
+    <!--Volume Panel Plugin Values -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+
+    <!-- Notification Media Options -->
+    <string name="artwork_media_background_title">Обложка на фоне</string>
+    <string name="artwork_media_background_summary">Установите обложку медиа в качестве фона уведомления</string>
+    
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Отображение на экране блокировки максимального тока и напряжения зарядного устройства и температуры батареи во время зарядки</string>
+
+    <!-- Navigation Options -->
+    <string name="xzrypr_system_navigation_title">Параметры навигации</string>
+    <string name="xzrypr_system_navigation_summary">Выберите желаемый стиль навигации системы</string>
+
+    <!-- Screenshot Gestures -->
+    <string name="xzrypr_three_finger_gesture_title">Проведите для скриншота</string>
+    <string name="xzrypr_three_finger_gesture_summary">Делайте скриншоты быстро, проводя пальцем по экрану</string>
+
+    <!-- Quick Torch -->
+    <string name="xzrypr_power_button_torch_title">Быстрый фонарик</string>
+    <string name="xzrypr_power_button_torch_summary">Быстро включайте фонарик</string>
+
+    <!-- Music Control -->
+    <string name="xzrypr_volume_button_music_control_title">Управление музыкой</string>
+    <string name="xzrypr_volume_button_music_control_summary">Быстрый переход между треками</string>
+
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Обложка на экране блокировки</string>
+    <string name="lockscreen_media_art_summary">Отображение обложки во время воспроизведения</string>
+    <string name="lockscreen_media_blur_title">Уровень размытости обложки</string>
+
+    <!-- Statusbar double tap to sleep -->
+    <string name="double_tap_to_sleep_title">Двойное нажатие на строку состояния для перехода в спящий режим</string>
+    <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния, чтобы перевести устройство в спящий режим</string>
+
+    <!-- Lock Icon -->
+    <string name="lockscreen_lock_icon_title">Иконка блокировки</string>
+    <string name="lockscreen_lock_icon_summary">Отображение значка блокировки на экране блокировки</string>
+
+    <!-- Statusbar Icon Tuner -->
+    <string name="statusbar_items_title">Иконка панели состояния</string>
+    <string name="statusbar_items_summary">Персонализация видимости значка панели состояния</string>
+
+    <!-- Lockscreen Face Style -->
+    <string name="clock_style_title">Внешний вид часов</string>
+    <string name="clock_style_summary">Персонализация циферблата часов на экране блокировки</string>
+
+    <!-- QS rows and columns -->
+    <string name="qs_rows_columns_title">Строки и столбцы QS</string>
+    <string name="qs_rows_portrait_title">Ряды плиток в портрете</string>
+    <string name="qs_rows_landscape_title">Ряды плитки в ландшафте</string>
+    <string name="qs_columns_portrait_title">Колонки плиток в портрете</string>
+    <string name="qs_columns_landscape_title">Колонки плиток в ландшафте</string>
+    <string name="qs_tile_title_visibility_title">Показывать подпись плитки</string>
+    
+    <!-- Theme -->
+    <string name="theme_customization_accent_color_title">Цвет акцента</string>
+    <string name="theme_customization_font_title">Системный шрифт</string>
+    <string name="theme_customization_icon_shape_title">Форма иконки</string>
+    <string name="theme_customization_sysui_icon_title">Стиль иконки</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">по умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nДлинное нажатие для установки</string>
+    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию установлено</string>
+
+
 </resources>
