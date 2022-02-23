@@ -21,10 +21,19 @@
     <string name="gestures_summary">Управляйте своим устройством еще проще</string>
     <string name="misc_title">Прочее</string>
     <string name="misc_summary">Другое</string>
+    <string name="interfaces_title">Системные интерфейсы</string>
+    <string name="interfaces_summary">Настройте внешний вид интерфейсов вашей системы</string>
+    <string name="interfaces_style_title">Стиль системы</string>
+    <string name="interfaces_statusbar_title">Строка состояния</string>
+    <string name="interfaces_battery_title">Батарея</string>
     <string name="statusbar_title">Строка состояния</string>
     <string name="statusbar_summary">Настройте внешний вид строки состояния</string>
     <string name="buttons_title">Кнопки</string>
     <string name="buttons_summary">Настройте функциональность кнопок</string>
+    <string name="quicksettings_title">Быстрые настройки</string>
+    <string name="quicksettings_summary">Настройте внешний вид быстрых настроек</string>
+    <string name="lockscreen_title">Экран блокировки</string>
+    <string name="lockscreen_summary">Настройте страницу блокировки экрана</string>
     
     <!-- General strings -->
     <string name="ok">ОК</string>
@@ -66,6 +75,7 @@
     <string name="status_bar_clock_date_title">Часы и дата</string>
     <string name="status_bar_clock_date_summary">Настройка часов и даты в строке состояния</string>
     <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_clock_title">Часы</string>
     <string name="status_bar_clock_show">Показывать часы и дату</string>
     <string name="status_bar_clock_style_title">Стиль часов</string>
     <string name="status_bar_clock_style_right">Справа</string>
@@ -97,11 +107,12 @@
     
     <!--Volume Panel Plugin -->
     <string name="volume_panel">Стиль панели громкости</string>
-    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_stock">AOSP</string>
     <string name="volume_panel_compact">Компактный</string>
     <string name="volume_panel_tiled">Плитка</string>
+    
     <!--Volume Panel Plugin Values -->
-    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_stock_val" translatable="false">com.android.systemui.volume</string>
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 
